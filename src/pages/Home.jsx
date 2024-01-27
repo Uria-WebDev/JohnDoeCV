@@ -4,14 +4,16 @@ function Home() {
     return (
       <div>
         <section className='background-img'>
-          <div className='padding-top-20 padding-bottom-20'>
-            <h1>Bonjour, je suis John Doe</h1>
-            <h2>Développeur web full stack</h2>
-            <a href='#A-propos'>
-              <button className='color-white background-blue border-radius-5 border-none padding-0-5 transform'>
-                En savoir plus
-              </button>
-            </a>
+          <div className='background-black-0-3'>
+            <div className='padding-top-20 padding-bottom-20'>
+              <h1>Bonjour, je suis John Doe</h1>
+              <h2>Développeur web full stack</h2>
+              <a href='#A-propos'>
+                <button className='color-white background-blue border-radius-5 border-none padding-0-5 transform'>
+                  En savoir plus
+                </button>
+              </a>
+            </div>
           </div>
         </section>
 
@@ -42,20 +44,30 @@ function Home() {
 
                 <h3 className='margin-top-3'>Mes compétences</h3>
 
-                <p>HTML 90%</p>
-                <progress max="100" value="90" className='width-100' />
+                <p className='margin-bottom-1'>HTML 90%</p>
+                <div className='progress'>
+                  <div className="progress-bar bg-danger width-90" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
 
-                <p>CSS 80%</p>
-                <progress max="100" value="80" className='width-100' />
+                <p className='margin-top-3 margin-bottom-1'>CSS 80%</p>
+                <div className='progress'>
+                  <div className="progress-bar bg-info width-80" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
 
-                <p>JAVASCRIPT 70%</p>
-                <progress max="100" value="70" className='width-100' />
+                <p className='margin-top-3 margin-bottom-1'>JAVASCRIPT 70%</p>
+                <div className='progress'>
+                 <div className="progress-bar bg-warning width-70" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
 
-                <p>PHP 60%</p>
-                <progress max="100" value="60" className='width-100' />
+                <p className='margin-top-3 margin-bottom-1'>PHP 60%</p>
+                <div className='progress'>
+                 <div className="progress-bar bg-success width-60" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
 
-                <p>REACT 50%</p>
-                <progress max="100" value="50" className='width-100' />
+                <p className='margin-top-3 margin-bottom-1'>REACT 50%</p>
+                <div className='progress'>
+                 <div className="progress-bar width-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
               </div>
             </div>
           </div>
