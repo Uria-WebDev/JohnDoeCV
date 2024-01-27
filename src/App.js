@@ -54,7 +54,7 @@ function App() {
         </Routes>
       </main>
 
-      <footer className='background-white'>
+      <footer className='background-white margin-top-3'>
         <div className='container padding-bottom-2'>
           <div className='row text-left'>
 
@@ -108,7 +108,7 @@ function App() {
 
           </div>
         </div>
-        <div className='background-grey color-white padding-top-0-5 padding-bottom-0-5'>
+        <div className='background-grey padding-top-0-5 padding-bottom-0-5'>
           <small>
             © Designed by John Doe
           </small>

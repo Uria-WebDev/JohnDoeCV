@@ -1,5 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,600&display=swap');
 
+h1, h2 {
+    font-family: 'Nunito Sans';
+    font-weight: 600;
+    color: #EEE;
+}
+
+h3, h4, strong {
+    font-family: 'Nunito Sans';
+    font-weight: 600;
+    color: #1e1e1e;
+}
+
+p, a {
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    color: #444;
+}
+
+small {
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    color: #EEE;
+}
+
 ul {
     list-style-type: '➡️​';
     padding-inline-start: 10%;
@@ -9,12 +33,25 @@ body {
     background-color: #EEE;
 }
 
+.text-left {
+    text-align: left;
+}
+
+.background-img {
+    background-image: url('./img//CodingGuy.jpg');
+    background-size: cover;
+}
+
 .background-grey {
     background-color: #444;
 }
 
 .background-white {
     background-color: #dddddd;
+}
+
+.background-blue {
+    background-color: #0d6efd;
 }
 
 .text-left {
@@ -45,16 +82,36 @@ body {
     text-decoration: underline;
 }
 
+.width-100 {
+    width: 100%;
+}
+
 .width-70 {
     width: 70%;
+}
+
+.margin-top-3 {
+    margin-top: 3%;
 }
 
 .margin-bottom-1 {
     margin-bottom: 1%;
 }
 
+.margin-bottom-3 {
+    margin-bottom: 3%;
+}
+
+.padding-0-5 {
+    padding: 0.5%;
+}
+
 .padding-1 {
     padding: 1%;
+}
+
+.padding-top-20 {
+    padding-top: 20%;
 }
 
 .padding-top-0-5 {
@@ -77,6 +134,34 @@ body {
     padding-bottom: 2%;
 }
 
+.padding-bottom-20 {
+    padding-bottom: 20%;
+}
+
+.border-radius-5 {
+    border-radius: 5px;
+}
+
+.border-radius-10 {
+    border-radius: 10px;
+}
+
+.box-shadow-1 {
+    box-shadow: 0px 0px 10px #1e1e1e;
+}
+
+.border-none {
+    border: none;
+}
+
+.border-bottom-blue {
+    border-bottom: 2px solid #0d6efd;
+}
+
 .opacity:hover {
     opacity: 0.7;
+}
+
+.transform:active {
+    transform: scale(0.9);
 }
