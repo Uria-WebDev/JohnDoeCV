@@ -1,1 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,600&display=swap');
+
+ul {
+    list-style-type: '➡️​';
+    padding-inline-start: 10%;
+  }
+
+body {
+    background-color: #EEE;
+}
+
+.background-grey {
+    background-color: #444;
+}
+
+.background-white {
+    background-color: #dddddd;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.color-white, .color-white-hov:hover {
+    color: #EEE;
+}
+
+.color-black {
+    color: #1e1e1e;
+}
+
+.color-dgrey, .color-dgrey:hover {
+    color: #444;
+}
+
+.color-grey {
+    color: grey;
+}
+
+.decoration-none {
+    text-decoration: none;
+}
+
+.decoration-underline-hov:hover {
+    text-decoration: underline;
+}
+
+.width-70 {
+    width: 70%;
+}
+
+.margin-bottom-1 {
+    margin-bottom: 1%;
+}
+
+.padding-1 {
+    padding: 1%;
+}
+
+.padding-top-0-5 {
+    padding-top: 0.5%;
+}
+
+.padding-top-5 {
+    padding-top: 5%;
+}
+
+.padding-top-10 {
+    padding-top: 10px;
+}
+
+.padding-bottom-0-5 {
+    padding-bottom: 0.5%;
+}
+
+.padding-bottom-2 {
+    padding-bottom: 2%;
+}
+
+.opacity:hover {
+    opacity: 0.7;
+}
