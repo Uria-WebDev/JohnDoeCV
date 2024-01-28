@@ -36,7 +36,7 @@ function App() {
             <Link to='/blog' className={pathname=='/blog' ? 'col-lg-1 color-white color-white-hov decoration-none' : 'col-lg-1 color-grey color-white-hov decoration-none'}>
               Blog
             </Link>
-            <Link to='contact' className={pathname=='/contact' ? 'col-lg-1 color-white color-white-hov decoration-none' : 'col-lg-1 color-grey color-white-hov decoration-none'}>
+            <Link to='/contact' className={pathname=='/contact' ? 'col-lg-1 color-white color-white-hov decoration-none' : 'col-lg-1 color-grey color-white-hov decoration-none'}>
               Contact
             </Link>
           </div>
@@ -54,7 +54,7 @@ function App() {
         </Routes>
       </main>
 
-      <footer className='background-white margin-top-3'>
+      <footer className='background-white margin-top-3 padding-top-3'>
         <div className='container padding-bottom-2'>
           <div className='row text-left'>
 

@@ -6,8 +6,8 @@ function Home() {
         <section className='background-img'>
           <div className='background-black-0-3'>
             <div className='padding-top-20 padding-bottom-20'>
-              <h1>Bonjour, je suis John Doe</h1>
-              <h2>Développeur web full stack</h2>
+              <h1 className='color-white'>Bonjour, je suis John Doe</h1>
+              <h2 className='color-white'>Développeur web full stack</h2>
               <a href='#A-propos'>
                 <button className='color-white background-blue border-radius-5 border-none padding-0-5 transform'>
                   En savoir plus
