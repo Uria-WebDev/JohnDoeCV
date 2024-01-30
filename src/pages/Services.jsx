@@ -1,4 +1,4 @@
-import BackgroundService from '../img/services/background-service.jpg';
+import Background from '../img/background.jpg';
 import Ordinateur from '../img/services/ordinateur.png';
 import Fichier from '../img/services/fichier.png';
 import Loupe from '../img/services/loupe.png';
@@ -6,7 +6,7 @@ import Loupe from '../img/services/loupe.png';
 function Services() {
     return (
       <div className='margin-bottom-10'>
-        <img src={BackgroundService} alt='fond en bleu' className='width-100' />
+        <img src={Background} alt='fond en bleu' className='width-100' />
         <section className='container padding-top-3 margin-bottom-3'>
           <h1>
             MON OFFRE DE SERVICES

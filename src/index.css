@@ -50,12 +50,20 @@ body {
     background-color: #dddddd;
 }
 
+.background-cwhite {
+    background-color: #EEE;
+}
+
 .background-blue {
     background-color: #0d6efd;
 }
 
 .text-left {
     text-align: left;
+}
+
+.text-middle {
+    vertical-align: middle;
 }
 
 .color-white, .color-white-hov:hover {
@@ -72,6 +80,10 @@ body {
 
 .color-grey {
     color: grey;
+}
+
+.color-blue {
+    color: #0d6efd;
 }
 
 .decoration-none {
@@ -126,6 +138,10 @@ body {
     margin-bottom: 10%;
 }
 
+.padding-0 {
+    padding: 0%;
+}
+
 .padding-0-5 {
     padding: 0.5%;
 }
@@ -162,6 +178,10 @@ body {
     padding-bottom: 2%;
 }
 
+.padding-bottom-3 {
+    padding-bottom: 3%;
+}
+
 .padding-bottom-5 {
     padding-bottom: 5%;
 }
@@ -170,12 +190,25 @@ body {
     padding-bottom: 20%;
 }
 
+.padding-left-2 {
+    padding-left: 2%;
+}
+
+.padding-right-2 {
+    padding-right: 2%;
+}
+
 .border-radius-5 {
     border-radius: 5px;
 }
 
 .border-radius-10 {
     border-radius: 10px;
+}
+
+.border-top-radius-10 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .box-shadow-1 {
@@ -188,6 +221,10 @@ body {
 
 .border-none {
     border: none;
+}
+
+.border-blue {
+    border: 1px solid #0d6efd;
 }
 
 .border-bottom-blue {
