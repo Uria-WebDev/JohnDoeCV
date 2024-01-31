@@ -20,58 +20,64 @@ function Realisations() {
         </section>
 
         <section className='container padding-top-3'>
-          <div className='row gap-3'>
-            <div className='col-lg border-radius-10 box-shadow-2 padding-0 background-white'>
-              <div className='background-cwhite padding-bottom-3'>
-                <img src={FreshFood} alt='Fresh Food' className='width-100 border-top-radius-10 margin-bottom-3' />
-                <h2>Fresh Food</h2>
-                <p>
-                  Réalisation d'un site web avec commande en ligne.
-                </p>
-                <button className='color-blue border-radius-5 border-none padding-0-5 transform border-blue padding-left-2 padding-right-2'>
-                  Voir
-                </button>
-              </div>
-              <div>
-                <p className='margin-top-3'>
-                  Site réalisé avec PHP et MySQL
-                </p>
-              </div>
-            </div>
-
-            <div className='col-lg border-radius-10 box-shadow-2 padding-0 background-white'>
-              <div className='background-cwhite padding-bottom-3'>
-                <img src={Akira} alt='Restaurant Akira' className='width-100 border-top-radius-10 margin-bottom-3' />
-                <h2>Restaurant Akira</h2>
-                <p>
-                  Réalisation d'un site vitrine.
-                </p>
-                <button className='color-blue border-radius-5 border-none padding-0-5 transform border-blue padding-left-2 padding-right-2'>
-                  Voir
-                </button>
-              </div>
-              <div>
-                <p className='margin-top-3'>
-                  Site réalisé avec WordPress
-                </p>
+          <div className='row gap-4'>
+            <div className='col'>
+              <div className='card background-white'>
+                <img src={FreshFood} alt='Fresh Food' className='card-img-top' />
+                <div className='card-body background-cwhite'>
+                  <h2 className='card-title'>Fresh Food</h2>
+                  <p className='card-text'>
+                    Réalisation d'un site web avec commande en ligne.
+                  </p>
+                  <a href='#' className='btn btn-primary'>
+                    Voir
+                  </a>
+                </div>
+                <div>
+                  <p className='margin-top-3'>
+                    Site réalisé avec PHP et MySQL
+                  </p>
+                </div>
               </div>
             </div>
 
-            <div className='col-lg border-radius-10 box-shadow-2 padding-0 background-white'>
-              <div className='background-cwhite padding-bottom-3'>
-                <img src={BienEtre} alt='Bien-être' className='width-100 border-top-radius-10 margin-bottom-3' />
-                <h2>Espace bien-être</h2>
-                <p>
-                  Réalisation d'un site vitrine pour un patricien de bien-être.
-                </p>
-                <button className='color-blue border-radius-5 border-none padding-0-5 transform border-blue padding-left-2 padding-right-2'>
-                  Voir
-                </button>
+            <div className='col'>
+              <div className='card background-white'>
+                <img src={Akira} alt='Restaurant Akira' className='card-img-top' />
+                <div className='card-body background-cwhite'>
+                  <h2 className='card-title'>Fresh Food</h2>
+                  <p className='card-text'>
+                    Réalisation d'un site vitrine.
+                  </p>
+                  <a href='#' className='btn btn-primary'>
+                    Voir
+                  </a>
+                </div>
+                <div>
+                  <p className='margin-top-3'>
+                    Site réalisé avec WordPress
+                  </p>
+                </div>
               </div>
-              <div>
-                <p className='margin-top-3'>
-                  Site réalisé en HTML/CSS
-                </p>
+            </div>
+
+            <div className='col'>
+              <div className='card background-white'>
+                <img src={BienEtre} alt='Espace Bien-être' className='card-img-top' />
+                <div className='card-body background-cwhite'>
+                  <h2 className='card-title'>Espace bien-être</h2>
+                  <p className='card-text'>
+                    Réalisation d'un site vitrine pour un patricien de bien-être.
+                  </p>
+                  <a href='#' className='btn btn-primary'>
+                    Voir
+                  </a>
+                </div>
+                <div>
+                  <p className='margin-top-3'>
+                    Site réalisé en HTML/CSS
+                  </p>
+                </div>
               </div>
             </div>
           </div>
