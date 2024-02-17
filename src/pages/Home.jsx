@@ -2,7 +2,7 @@ import JohnDoe from '../img/JohnDoe.jpg';
 
 function Home() {
     return (
-      <div>
+      <div className='margin-bottom-10'>
         <section className='background-img'>
           <div className='background-black-0-3'>
             <div className='padding-top-20 padding-bottom-20'>
