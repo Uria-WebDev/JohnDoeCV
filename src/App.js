@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="App">
-      <header className="background-grey padding-top-10">
+      <header className="background-grey padding-top-10px">
         <nav className='container'>
           <div className='row'>
             <p className='col-lg-7 text-left color-white'>
@@ -54,7 +54,7 @@ function App() {
         </Routes>
       </main>
 
-      <footer className='background-white margin-top-3 padding-top-3'>
+      <footer className='background-white padding-top-3'>
         <div className='container padding-bottom-2'>
           <div className='row text-left'>
 

@@ -1,4 +1,6 @@
 import Lyon from '../img/contact/Lyon.png';
+import Localisation from '../img/icones/localisateur.png';
+import Mobile from '../img/icones/mobile.png';
 
 function Contact() {
 
@@ -26,51 +28,61 @@ function Contact() {
   }
 
     return (
-      <div className="margin-bottom-10">
-        <section className='container padding-top-3 margin-bottom-3'>
-          <h1>
-            ME CONTACTER
-          </h1>
-          <p>Pour me contacter en vue d'un entretien ou d'une future collaboration, merci de remplir le formulaire de contact.</p>
-          <div className='row'>
-            <div className='col-lg-5'></div>
-            <div className='col-lg-2 border-bottom-blue'></div>
-            <div className='col-lg-5'></div>
-          </div>
-        </section>
+      <div className="background-img">
+        <div className='padding-bottom-10 padding-top-10 background-blue-0-5'>
+          <div className='container background-cwhite border-radius-5 padding-bottom-3'>
+            <section className='container padding-top-3 margin-bottom-3'>
+              <h1>
+                ME CONTACTER
+              </h1>
+              <p>Pour me contacter en vue d'un entretien ou d'une future collaboration, merci de remplir le formulaire de contact.</p>
+              <div className='row'>
+                <div className='col-lg-5'></div>
+                <div className='col-lg-2 border-bottom-blue'></div>
+                <div className='col-lg-5'></div>
+              </div>
+            </section>
 
-        <section className="container">
-          <div className="row gap-4">
-            <form className="col" onSubmit={handleSubmit}>
-              <h2 className="border-bottom-blue margin-bottom-3">Formulaire de contact</h2>
-              <div className="form-group margin-bottom-3">
-                <input type="username" id='username' className="form-control" placeholder="Votre nom" />
-              </div>
-              <div className="form-group margin-bottom-3">
-                <input type="email" id='email' className="form-control" placeholder="Votre adresse email" />
-              </div>
-              <div className="form-group margin-bottom-3">
-                <input type="tel" id='tel' className="form-control" placeholder="Votre numéro de téléphone" />
-              </div>
-              <div className="form-group margin-bottom-3">
-                <input type="subject" id='subject' className="form-control" placeholder="Sujet" />
-              </div>
-              <div className="form-group">
-                <textarea type="text" id='text' rows='6' className="form-control height-30" placeholder="Votre message" />
-              </div>
-              <button id="submit" className='btn btn-primary margin-top-3'>
-                Envoyer
-              </button>
-            </form>
+            <section className="container">
+              <div className="row gap-4">
+                <form className="col" onSubmit={handleSubmit}>
+                  <h2 className="border-bottom-blue margin-bottom-3">Formulaire de contact</h2>
+                  <div className="form-group margin-bottom-3">
+                    <input type="username" id='username' className="form-control" placeholder="Votre nom" />
+                  </div>
+                  <div className="form-group margin-bottom-3">
+                    <input type="email" id='email' className="form-control" placeholder="Votre adresse email" />
+                  </div>
+                  <div className="form-group margin-bottom-3">
+                    <input type="tel" id='tel' className="form-control" placeholder="Votre numéro de téléphone" />
+                  </div>
+                  <div className="form-group margin-bottom-3">
+                    <input type="subject" id='subject' className="form-control" placeholder="Sujet" />
+                  </div>
+                  <div className="form-group">
+                    <textarea type="text" id='text' rows='6' className="form-control height-30" placeholder="Votre message" />
+                  </div>
+                  <button id="submit" className='btn btn-primary margin-top-3'>
+                    Envoyer
+                  </button>
+                </form>
 
-            <div className="col">
-              <h2 className="border-bottom-blue">Mes coordonées</h2>
-              <p>40 rue Laure Diebold, 690069 Lyon, France<br />
-              06 20 30 40 50</p>
-              <img src={Lyon} alt='Localisation de Lyon' className='width-100' />
-            </div>
+                <div className="col">
+                  <h2 className="border-bottom-blue">Mes coordonées</h2>
+                  <p className='text-left'>
+                    <img src={Localisation} alt='localisation' className='width-5' />
+                    40 rue Laure Diebold, 690069 Lyon, France<br />
+                  </p>
+                  <p className='text-left'>
+                    <img src={Mobile} alt='téléphone portable' className='width-5' />
+                    06 20 30 40 50
+                  </p>
+                  <img src={Lyon} alt='Localisation de Lyon' className='width-100' />
+                </div>
+              </div>
+            </section>
           </div>
-        </section>
+        </div>
       </div>
     );
   }
