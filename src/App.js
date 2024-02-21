@@ -19,24 +19,59 @@ function App() {
   return (
     <div className="App">
       <header className="background-grey padding-top-10px">
-        <nav className='container'>
+
+        <div className='container mobile-nav'>
           <div className='row'>
-            <p className='col-lg-7 text-left color-white'>
+            <p className='col-10 text-left color-white'>
               John Doe
             </p>
-            <Link to='/' className={pathname=='/' ? 'col-lg-1 color-white color-white-hov decoration-none' : 'col-lg-1 color-grey color-white-hov decoration-none'}>
+            <nav className="col-1 navbar navbar-dark padding-top-0 padding-left-0">
+              <div className="container-fluid padding-left-0">
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span className="navbar-toggler-icon"></span>
+                </button>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <div className="collapse me-auto mb-lg-0" id="navbarToggleExternalContent">
+          <div className='navbar-nav  me-auto mb-2 mb-lg-0 text-left container'>
+            <Link to='/' className={pathname=='/' ? 'col-md-1 color-white color-white-hov decoration-none' : 'col-md-1 color-grey color-white-hov decoration-none'}>
               Accueil
             </Link>
-            <Link to='/services' className={pathname=='/services' ? 'col-lg-1 color-white color-white-hov decoration-none' : 'col-lg-1 color-grey color-white-hov decoration-none'}>
+            <Link to='/services' className={pathname=='/services' ? 'col-md-1 color-white color-white-hov decoration-none' : 'col-md-1 color-grey color-white-hov decoration-none'}>
               Services
             </Link>
-            <Link to='/realisations' className={pathname=='/realisations' ? 'col-lg-1 color-white color-white-hov decoration-none' : 'col-lg-1 color-grey color-white-hov decoration-none'}>
+            <Link to='/realisations' className={pathname=='/realisations' ? 'col-md-1 color-white color-white-hov decoration-none' : 'col-md-1 color-grey color-white-hov decoration-none'}>
               Réalisations
             </Link>
-            <Link to='/blog' className={pathname=='/blog' ? 'col-lg-1 color-white color-white-hov decoration-none' : 'col-lg-1 color-grey color-white-hov decoration-none'}>
+            <Link to='/blog' className={pathname=='/blog' ? 'col-md-1 color-white color-white-hov decoration-none' : 'col-md-1 color-grey color-white-hov decoration-none'}>
               Blog
             </Link>
-            <Link to='/contact' className={pathname=='/contact' ? 'col-lg-1 color-white color-white-hov decoration-none' : 'col-lg-1 color-grey color-white-hov decoration-none'}>
+            <Link to='/contact' className={pathname=='/contact' ? 'col-md-1 color-white color-white-hov decoration-none' : 'col-md-1 color-grey color-white-hov decoration-none'}>
+              Contact
+            </Link>
+          </div>
+        </div>
+
+        <nav className='container desktop-nav'>
+          <div className='row'>
+            <p className='col-md-2 col-lg-7 text-left color-white'>
+              John Doe
+            </p>
+            <Link to='/' className={pathname=='/' ? 'col-md-2 col-lg-1 color-white color-white-hov decoration-none' : 'col-md-2 col-lg-1 color-grey color-white-hov decoration-none'}>
+              Accueil
+            </Link>
+            <Link to='/services' className={pathname=='/services' ? 'col-md-2 col-lg-1 color-white color-white-hov decoration-none' : 'col-md-2 col-lg-1 color-grey color-white-hov decoration-none'}>
+              Services
+            </Link>
+            <Link to='/realisations' className={pathname=='/realisations' ? 'col-md-2 col-lg-1 color-white color-white-hov decoration-none' : 'col-md-2 col-lg-1 color-grey color-white-hov decoration-none'}>
+              Réalisations
+            </Link>
+            <Link to='/blog' className={pathname=='/blog' ? 'col-md-2 col-lg-1 color-white color-white-hov decoration-none' : 'col-md-2 col-lg-1 color-grey color-white-hov decoration-none'}>
+              Blog
+            </Link>
+            <Link to='/contact' className={pathname=='/contact' ? 'col-md-2 col-lg-1 color-white color-white-hov decoration-none' : 'col-md-2 col-lg-1 color-grey color-white-hov decoration-none'}>
               Contact
             </Link>
           </div>
@@ -56,28 +91,28 @@ function App() {
 
       <footer className='background-white padding-top-3'>
         <div className='container padding-bottom-2'>
-          <div className='row text-left'>
+          <div className='row rows-cols text-left'>
 
-            <div className='col-lg-3'>
+            <div className='col-md-6 col-lg-3 margin-bottom-3'>
               <h4 className='color-black'>John Doe</h4>
               <p className='margin-bottom-1 color-dgrey'>40 Rue Laure Diebold</p>
               <p className='margin-bottom-1 color-dgrey'>69009 Lyon, France</p>
               <a href='tel:0620304050' className='color-dgrey decoration-none decoration-underline-hov'>Téléphone : 06 20 30 40 50</a>
               <div className='row padding-top-5'>
-                <a href='https://github.com/' target='blank' className='col-lg-3 opacity'>
-                  <img src={Github} alt='github' className='width-70' />
+                <a href='https://github.com/' target='blank' className='col opacity'>
+                  <img src={Github} alt='github' className='width-30-sm width-50-md width-70-lg' />
                 </a>
-                <a href='https://twitter.com/?lang=fr' target='blank' className='col-lg-3 opacity'>
-                  <img src={Twitter} alt='twitter' className='width-70' />
+                <a href='https://twitter.com/?lang=fr' target='blank' className='col opacity'>
+                  <img src={Twitter} alt='twitter' className='width-30-sm width-50-md width-70-lg' />
                 </a>
-                <a href='https://fr.linkedin.com/' target='blank' className='col-lg-3 opacity'>
-                  <img src={Linkedin} alt='linkedin' className='width-70' />
+                <a href='https://fr.linkedin.com/' target='blank' className='col opacity'>
+                  <img src={Linkedin} alt='linkedin' className='width-30-sm width-50-md width-70-lg' />
                 </a>
               </div>
             </div>
           
 
-            <div className='col-lg-3'>
+            <div className='col-md-6 col-lg-3'>
               <h4 className='color-black'>Liens utiles</h4>
               <ul>
                 <li><Link to='/' className='color-dgrey decoration-none decoration-underline-hov'>Accueil</Link></li>
@@ -88,7 +123,7 @@ function App() {
               </ul>
             </div>
 
-            <div className='col-lg-3'>
+            <div className='col-md-6 col-lg-3'>
               <h4 className='color-black'>Mes dernières réalisations</h4>
               <ul>
                 <li><Link to='/realisations' className='color-dgrey decoration-none decoration-underline-hov'>Fresh food</Link></li>
@@ -97,7 +132,7 @@ function App() {
               </ul>
             </div>
 
-            <div className='col-lg-3'>
+            <div className='col-md-6 col-lg-3'>
               <h4 className='color-black'>Mes derniers articles</h4>
               <ul>
                 <li><Link to='/blog' className='color-dgrey decoration-none decoration-underline-hov'>Coder son site en HTML/CSS</Link></li>

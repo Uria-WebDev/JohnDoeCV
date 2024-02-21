@@ -20,8 +20,9 @@ function Realisations() {
         </section>
 
         <section className='container padding-top-3'>
-          <div className='row gap-4'>
-            <div className='col'>
+          <div className='row rows-cols'>
+
+            <div className='col-md-6 col-lg-4 margin-bottom-3'>
               <div className='card background-white'>
                 <img src={FreshFood} alt='Fresh Food' className='card-img-top' />
                 <div className='card-body background-cwhite'>
@@ -41,7 +42,7 @@ function Realisations() {
               </div>
             </div>
 
-            <div className='col'>
+            <div className='col-md-6 col-lg-4 margin-bottom-3'>
               <div className='card background-white'>
                 <img src={Akira} alt='Restaurant Akira' className='card-img-top' />
                 <div className='card-body background-cwhite'>
@@ -61,7 +62,7 @@ function Realisations() {
               </div>
             </div>
 
-            <div className='col'>
+            <div className='col-md-6 col-lg-4 margin-bottom-3'>
               <div className='card background-white'>
                 <img src={BienEtre} alt='Espace Bien-être' className='card-img-top' />
                 <div className='card-body background-cwhite'>
