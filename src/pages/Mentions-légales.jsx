@@ -32,17 +32,17 @@ function Legal() {
                     John Doe
                   </h3>
                   <p>
-                    <img src={Localisation} alt='localisation' className='width-2' />
+                    <img src={Localisation} alt='localisation' className='width-6-sm width-4-md width-2-lg' />
                     40 Rue Laure Diebold<br />
                     69009 Lyon
                   </p>
                   <a href='tel:0620304050' className='color-blue decoration-none decoration-underline-hov'>
-                    <img src={Mobile} alt='téléphone portable' className='width-2' />
+                    <img src={Mobile} alt='téléphone portable' className='width-6-sm width-4-md width-2-lg' />
                     0620304050
                   </a>
                   <div></div>
                   <a href='mailto:john.doe@gmail.com' className='color-blue decoration-none decoration-underline-hov'>
-                    <img src={Email} alt='email' className='width-2 margin-right-1' />
+                    <img src={Email} alt='email' className='width-6-sm width-4-md width-2-lg margin-right-1' />
                     john.doe@gmail.com
                   </a>
                 </div>
@@ -65,7 +65,7 @@ function Legal() {
                     75008 Paris
                   </p>
                   <a href='https://www.alwaysdata.com/fr/'  className='color-blue decoration-none decoration-underline-hov'>
-                    <img src={Internet} alt='internet' className='width-2 margin-right-1' />
+                    <img src={Internet} alt='internet' className='width-6-sm width-4-md width-2-lg margin-right-1' />
                     www.alwaysdata.com
                   </a>
                 </div>

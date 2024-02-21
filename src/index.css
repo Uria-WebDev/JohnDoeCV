@@ -1,5 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,600&display=swap');
 
+@media screen and (max-width: 768px) {
+    .width-30-sm {
+        width: 30%;
+    }
+
+    .width-6-sm {
+        width: 6%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .desktop-nav {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .width-50-md {
+        width: 50%;
+    }
+
+    .width-4-md {
+        width: 4%;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .mobile-nav {
+        display: none;
+    }
+
+    .width-70-lg {
+        width: 70%;
+    }
+
+    .width-2-lg {
+        width: 2%;
+    }
+}
+
 h1, h2, h3, h4, strong {
     font-family: 'Nunito Sans';
     font-weight: 600;
@@ -98,10 +138,6 @@ body {
     text-decoration: underline;
 }
 
-.width-2 {
-    width: 2%;
-}
-
 .width-5 {
     width: 5%;
 }
@@ -178,6 +214,10 @@ body {
     padding: 1%;
 }
 
+.padding-top-0 {
+    padding-top: 0%;
+}
+
 .padding-top-0-5 {
     padding-top: 0.5%;
 }
@@ -224,6 +264,10 @@ body {
 
 .padding-bottom-20 {
     padding-bottom: 20%;
+}
+
+.padding-left-0 {
+    padding-left: 0%;
 }
 
 .padding-left-2 {

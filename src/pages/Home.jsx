@@ -20,7 +20,7 @@ function Home() {
         <section id='A-propos' className='container box-shadow-1 border-radius-10 margin-top-3'>
           <div className='container'>
             <div className='row'>
-              <div className='col-lg-6 margin-top-3 text-left'>
+              <div className='col-md-6 margin-top-3 text-left'>
                 <h3 className='border-bottom-blue padding-bottom-2 margin-bottom-3'>A propos</h3>
                 <p>
                   Passionné par l'informatique et les nouvelles technologies, j'ai suivis une formation d'
@@ -39,7 +39,7 @@ function Home() {
                 </p>
               </div>
 
-              <div className='col-lg-6 margin-top-3 margin-bottom-3 text-left'>
+              <div className='col-md-6 margin-top-3 margin-bottom-3 text-left'>
                 <img src={JohnDoe} alt='John Doe' className='width-100' />
 
                 <h3 className='margin-top-3'>Mes compétences</h3>

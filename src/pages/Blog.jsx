@@ -23,8 +23,9 @@ function Blog() {
         </section>
 
         <section className='container padding-top-3'>
-          <div className='row gap-4 margin-bottom-3'>
-            <div className='col'>
+          <div className='row rows-cols margin-bottom-3'>
+
+            <div className='col-md-6 col-lg-4 margin-bottom-3'>
               <div className='card background-white'>
                 <img src={Html} alt='Code HTML' className='card-img-top' />
                 <div className='card-body background-cwhite'>
@@ -44,7 +45,7 @@ function Blog() {
               </div>
             </div>
 
-            <div className='col'>
+            <div className='col-md-6 col-lg-4 margin-bottom-3'>
               <div className='card background-white'>
                 <img src={Selling} alt='Vente de produit' className='card-img-top' />
                 <div className='card-body background-cwhite'>
@@ -64,7 +65,7 @@ function Blog() {
               </div>
             </div>
 
-            <div className='col'>
+            <div className='col-md-6 col-lg-4 margin-bottom-3'>
               <div className='card background-white'>
                 <img src={Google} alt='Navigateur Google' className='card-img-top' />
                 <div className='card-body background-cwhite'>
@@ -83,10 +84,8 @@ function Blog() {
                 </div>
               </div>
             </div>
-          </div>
 
-          <div className='row gap-4'>
-            <div className='col'>
+            <div className='col-md-6 col-lg-4 margin-bottom-3'>
               <div className='card background-white'>
                 <img src={Responsive} alt='Code responsive' className='card-img-top' />
                 <div className='card-body background-cwhite'>
@@ -106,7 +105,7 @@ function Blog() {
               </div>
             </div>
 
-            <div className='col'>
+            <div className='col-md-6 col-lg-4 margin-bottom-3'>
               <div className='card background-white'>
                 <img src={SEO} alt='SEO' className='card-img-top' />
                 <div className='card-body background-cwhite'>
@@ -126,7 +125,7 @@ function Blog() {
               </div>
             </div>
 
-            <div className='col'>
+            <div className='col-md-6 col-lg-4 margin-bottom-3'>
               <div className='card background-white'>
                 <img src={LearningCode} alt='Les différents langages web' className='card-img-top' />
                 <div className='card-body background-cwhite'>
